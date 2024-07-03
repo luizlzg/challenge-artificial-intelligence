@@ -1,9 +1,3 @@
----
-title: Educational_Agent
-app_file: main.py
-sdk: gradio
-sdk_version: 4.29.0
----
 +A Educação - Engenheiro de Inteligência Artificial
 ===================
 
