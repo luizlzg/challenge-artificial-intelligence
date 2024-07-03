@@ -1,0 +1,4 @@
+gradio==4.29.0
+llama-index==0.10.33
+openai==1.32.0
+pandas==2.1.2
