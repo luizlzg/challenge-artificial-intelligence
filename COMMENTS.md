@@ -42,7 +42,7 @@ E as ferramentas oferecidas foram:
 - **get_content**: recupera o conteúdo de um índice específico, com base no formato de preferência do usuário;
 - **get_php_exercises**: recupera um exercício de PHP do índice de exercícios;
 
-Desse modo, o componente 'Agente ReAct' da arquitetura foi desenvolvido.
+Desse modo, o componente 'Agente ReAct' da arquitetura foi desenvolvido. Para acessar o prompt desenvolvido, visite o método 'create_agent' da classe EduAgent, no arquivo [llm/educational_agent.py](llm/educational_agent.py).
 
 ### Message broker
 
@@ -121,10 +121,12 @@ Eu realizaria apenas a melhoria na detecção do nível do usuário, mas, de mod
 
 Após desenvolver a solução, disponibilizei ela on-line, em um Space do HuggingFace, para que você possa testar a solução. Para isso, basta acessar o link abaixo: <br>
 [Solução on-line](https://huggingface.co/spaces/luizlzg/Educational_Agent)
+<br>
 
 Caso queira acompanhar o raciocínio do agente, basta clicar no local onde está circulado na imagem abaixo:
 ![Onde clicar](img/onde_clicar.png)
 
+<br>
 
 ### Organização do repositório
 
@@ -141,6 +143,7 @@ O repositório foi organizado da seguinta forma:
 
 Lembrando que, ao rodar a preparação dos dados, os dados preparados são salvos no diretório 'data'.
 Ao serem indexados, os índices dos dados indexados são salvos no diretório 'results'.
+<br>
 
 ### Rodando a solução
 
